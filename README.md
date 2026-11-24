@@ -32,9 +32,9 @@ print('Intercept:', regr.intercept_)
 input_data = pd.DataFrame({'Weight': [3300], 'Volume': [1300]})
 predictedCO2 = regr.predict(input_data)
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
-
-
 ```
+
+
 ## Output:
 <img width="1056" height="605" alt="Screenshot 2026-11-21 125528" src="https://github.com/user-attachments/assets/795524f0-0a7e-4e3e-9b84-e2facd989d47" />
 
